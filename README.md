@@ -1,5 +1,5 @@
 # cloud-infra-diagrams-docker
-A Docker container to run Python's diagrams library
+A Docker container to run Python's diagrams library (https://diagrams.mingrammer.com/)
 
 ## To build
 
@@ -9,6 +9,7 @@ A Docker container to run Python's diagrams library
 
 Assuming:
 - your Diagrams Python code is in `./diagram-code`
+- you want to create the diagram described in `./diagram-code/aws-diagram.py`
 
 `$ docker run --rm -v $(pwd)/diagram-code:/app/diagram -w /app/diagram diagrams:latest python /app/diagram/aws-diagram.py`
 
