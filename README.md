@@ -1,3 +1,5 @@
+[![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit)](https://github.com/pre-commit/pre-commit)
+
 # cloud-infra-diagrams-docker
 A Docker container to run Python's fantastic Diagrams library
 
